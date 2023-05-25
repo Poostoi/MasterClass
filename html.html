@@ -8,20 +8,26 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 </head>
 
-<body>
+<body class="bg-gradient bg-secondary text-light">
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " href="#part1">Первая часть</a>
+              <a class="nav-link " href="#part1">Первая часть</a> 
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#part2">Вторая часть</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#part3">Третья часть</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Персонажи</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#story">Сюжет</a>
             </li>
           </ul>
           <span class="navbar-text"> ЛЕДНИКОВЫЙ ПЕРИОД </span>
@@ -34,19 +40,27 @@
       <img class="w-49" src="content/ice1.jpg" alt="" />
       <img class="w-49" src="content/ice3.jpg" alt="" />
     </div>
-
+<!-- Блок с частями, под сомнением, скорее всего придётся убрать -->
     <div class="row col-12">
       <div id="part1" class="text-center center-block row">
         <img class="w-75" src="content/iceAge1.jpg" alt="" />
         <span class="col-3 p-4"><strong> ЛЕДНИКОВЫЙ</br>
             ПЕРИОД </br>1 </strong></span>
       </div>
-      <div id="part2">
-        <img class="w-100" src="content/iceAge2.jpg" alt="" />
+      <div id="part2" class="text-center center-block row">
+        <img class="w-75" src="content/iceAge2.jpg" alt="" />
+        <span class="col-3 p-4"><strong> ЛЕДНИКОВЫЙ</br>
+            ПЕРИОД </br>2 </strong></span>
       </div>
-      <div id="part3">
-        <img class="w-100" src="content/iceAge3.png" alt="" />
+      <div id="part3" class="text-center center-block row">
+        <img class="w-75" src="content/iceAge3.png" alt="" />
+        <span class="col-3 p-4"><strong> ЛЕДНИКОВЫЙ</br>
+            ПЕРИОД </br>3 </strong></span>
       </div>
+    </div>
+    <!--  -->
+    <div id = "hero"class="text-center p-5">
+      <h1>Мои любимые персонажи</h1>
     </div>
     <table class="table table-dark col-12">
       <thead>
@@ -59,24 +73,30 @@
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
+          <td>Мэнни</td>
+          <td><img width="200" height="200" src="content/mani.png" alt=""></td>
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
+          <td>Сид</td>
+          <td><img width="200" height="200" src="content/sid.jpg" alt=""></td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
+          <td>Диего</td>
+          <td><img width="200" height="200" src="content/diego.jpg" alt=""></td>
         </tr>
       </tbody>
     </table>
-  </main>
+    <div id = "story" class="p-5">
+      <h1>Сюжет</h1>
+      <p>Действие происходит на Земле в эпоху ледникового периода. Саблезубый бельчонок Скрат с целью запастись закапывает в землю свой единственный жёлудь, в результате чего вызывает сход ледника и едва не расстаётся с жизнью. После Скрат оказывается чуть не раздавленным огромным количеством животных, которые мигрируют в тёплые края, спасаясь от заморозков. На протяжении всего фильма параллельно с главной сюжетной линией идёт сюжетная линия Скрата, в ходе которой он постоянно теряет свой драгоценный жёлудь и преодолевает смешного рода препятствия, чтобы завладеть им вновь.</p>  
+      <p>Глуповатый и неуклюжий ленивец Сид просыпает начало волны миграции и находит себя брошенным своей семьёй. Решив путешествовать в одиночку, он встречает двух носорогов Карла и Фрэнка, которые собираются позавтракать. Ленивец портит им трапезу и издевается над ними, после чего убегает. Разъярённые носороги бросаются за Сидом в погоню, но жизнь ленивца случайно спасает мамонт Манфред (Мэнни), который не любит тех, кто убивает ради забавы. Сид, решив, что с мамонтом ему будет безопасно, продолжает путешествие с ним, постоянно ему докучая.</p>
+      <p>Тем временем стая саблезубых тигров намерена отомстить человеческому племени за смерть своих сородичей. Тигры собираются украсть у вождя племени ребёнка. Пока большая часть стаи отвлекает охотников, тигр Диего проникает в пещеру и уже готов забрать малыша. Но ему мешает мать, которая, взяв на руки сына, спасается от тигра бегством. Диего загоняет женщину к краю пропасти, и та, чтобы не дать ребёнка на съедение хищнику, прыгает в водопад. Узнав о провале, вожак стаи тигров, Сото, приказывает Диего достать ребёнка живым. Стая Сото уходит на Раздвоенный утёс, а Диего отправляется на поиски малыша.</p>
+    </div>
+    </main>
 
-  <footer></footer>
+  <footer class="bg-dark text-center p-5"> <h1>Спасибо за внимание!</h1></footer>
 </body>
 
 </html>
